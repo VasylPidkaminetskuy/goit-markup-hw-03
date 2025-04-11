@@ -1,11 +1,43 @@
+/* basic reset */
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
   color: #434455;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+ul { 
+  margin: 0;
+  
+}
+
 a {
   text-decoration: none;
+  color: currentColor;
+}
+
+/* basic reset */
+
+.container {
+  max-width: 1158px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 /* header */
 .logo {
