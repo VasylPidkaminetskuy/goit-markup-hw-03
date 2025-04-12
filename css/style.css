@@ -173,7 +173,7 @@ a {
 /* section-Feature */
 
 .container-feature {
- padding: 120px 0;
+ padding: 120px 15px;
 }
 
 .section-feature-title {
@@ -203,7 +203,7 @@ a {
 
 /* section-team */
 .container-team {
-padding: 120px 0;
+padding: 120px 15px;
 }
 
 .section-team {
@@ -219,6 +219,7 @@ padding: 120px 0;
 
 .section-team-item {
   background-color: #ffffff;
+  padding-bottom: 32px;
 }
 
 .section-team-title {
@@ -232,6 +233,10 @@ padding: 120px 0;
   margin-bottom: 72px;
 }
 
+.section-team-img {
+  margin-bottom: 32px;
+}
+
 .section-team-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -239,6 +244,7 @@ padding: 120px 0;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .section-team-text {
@@ -253,6 +259,21 @@ padding: 120px 0;
 /* section-team */
 
 /* section-portfolio */
+.container-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+
+.section-portfolio-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+
+
+}
 
 .section-portfolio-title {
   font-weight: 700;
@@ -262,6 +283,7 @@ padding: 120px 0;
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .section-portfolio-subtitle {
@@ -284,6 +306,10 @@ padding: 120px 0;
 
 /* section-footer */
 
+.container-footer {
+  padding: 100px 867px 100px 15px;
+}
+
 .footer {
   background-color: #2e2f42;
 }
@@ -294,6 +320,7 @@ padding: 120px 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  margin-top: 16px;
 }
 
 .footer-logo-color {
