@@ -57,6 +57,15 @@ a {
 }
 /* header */
 
+header { 
+
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.logo-header {
+  margin-right: 76px;
+}
+
 .container-header {
   display: flex;
   justify-content: space-between;
@@ -83,7 +92,6 @@ a {
   justify-content: space-between;
   align-items: center;
   flex-grow: 1;
-  padding-left: 76px;
 }
 
 .header-list-nav {
@@ -162,9 +170,9 @@ a {
 .section-hero-button {
   background-color: #4d5ae5;
   border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
+  padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -332,6 +340,10 @@ padding: 120px 15px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   margin-top: 16px;
+}
+
+.logo-footer {
+  display: block;
 }
 
 .footer-logo-color {
