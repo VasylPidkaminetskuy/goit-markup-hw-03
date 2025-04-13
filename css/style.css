@@ -78,12 +78,21 @@ a {
   color: #2e2f42;
 }
 
-.header-list-nav {
+.header-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-grow: 1;
+  padding-left: 76px;
+}
+
+.header-list-nav {
+  display: flex;
   gap: 40px;
-  padding: 24px;
+} 
+
+.header-nav-item {
+  padding: 23.5px 0;
 }
 
 .header-link-nav {
