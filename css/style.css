@@ -144,13 +144,10 @@ header {
 /* section-hero */
 .section-hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
-.container-hero { 
-padding-top: 188px;
-padding-bottom: 188px;
-
-}
 
 .section-hero-title {
   max-width: 496px;
@@ -189,10 +186,9 @@ padding-bottom: 188px;
 /* section-hero */
 
 /* section-Feature */
-
-.container-feature {
- padding-top: 120px;
- padding-bottom: 120px;
+.section-feature {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-feature-title {
@@ -225,12 +221,11 @@ padding-bottom: 188px;
 /* section-Feature */
 
 /* section-team */
-.container-team {
-padding: 120px 15px;
-}
 
 .section-team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-team-list {
@@ -242,8 +237,11 @@ padding: 120px 15px;
 
 .section-team-item {
   background-color: #ffffff;
-  padding-bottom: 32px;
   width: calc((100% - 24px * 3)/3);
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  
 }
 
 .section-team-title {
@@ -259,6 +257,10 @@ padding: 120px 15px;
 
 .section-team-img {
   margin-bottom: 32px;
+}
+
+.team-card-title {
+  padding: 32px 0
 }
 
 .section-team-subtitle {
