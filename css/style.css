@@ -253,8 +253,13 @@ border-bottom: 1px solid #e7e9fc;
   margin-bottom: 72px;
 }
 
+
 .section-team-img {
   margin-bottom: 32px;
+}
+
+.team-card-title {
+  padding: 32px 0
 }
 
 .section-team-subtitle {
