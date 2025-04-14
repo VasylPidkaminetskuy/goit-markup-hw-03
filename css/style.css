@@ -170,6 +170,7 @@ header {
 .section-hero-button {
   background-color: #4d5ae5;
   border-radius: 4px;
+  border: none;
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
@@ -326,7 +327,7 @@ padding: 120px 15px;
 /* section-footer */
 
 .container-footer {
-  padding: 100px 867px 100px 15px;
+  padding: 100px 0;
 }
 
 .footer {
@@ -334,16 +335,17 @@ padding: 120px 15px;
 }
 
 .footer-text {
+  max-width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-top: 16px;
 }
 
 .logo-footer {
   display: block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-color {
