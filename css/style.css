@@ -91,7 +91,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-grow: 1;
 }
 
 .header-list-nav {
@@ -327,7 +326,8 @@ padding: 120px 15px;
 /* section-footer */
 
 .container-footer {
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer {
@@ -344,7 +344,7 @@ padding: 120px 15px;
 }
 
 .logo-footer {
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
