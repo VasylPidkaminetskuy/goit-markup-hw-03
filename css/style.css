@@ -99,7 +99,7 @@ header {
 } 
 
 .header-nav-item {
-  padding: 23.5px 0;
+  padding: 24px 0;
 }
 
 .header-link-nav {
@@ -191,7 +191,8 @@ padding-bottom: 188px;
 /* section-Feature */
 
 .container-feature {
- padding: 120px 15px;
+ padding-top: 120px;
+ padding-bottom: 120px;
 }
 
 .section-feature-title {
@@ -208,6 +209,10 @@ padding-bottom: 188px;
   justify-content: space-between;
   align-items: center;
   gap: 24px;
+}
+
+.section-feature-item {
+  width: calc((100% - 24px * 3) / 4);
 }
 
 .section-feature-text {
